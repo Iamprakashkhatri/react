@@ -17,6 +17,9 @@ import Form from 'components/21-form-basics/Form'
 import LifecycleA from 'components/23-comp-mount/LifecycleA'
 import FragmentDemo from 'components/25-fragments/FragmentDemo'
 import Table from 'components/25-fragments/Table'
+
+import ClickCounter from './components/33-34-HOC/ClickCounter';
+import HoverCounter from './components/33-34-HOC/HoverCounter';
 // function App() {
 //   return (
 //     <div className="App">
@@ -31,6 +34,9 @@ class App extends Component {
   render(){
     return (
       <div className='App'>
+
+      <ClickCounter name ='prakash'/>
+      <HoverCounter />
         
 
         {/* <Message /> */}
